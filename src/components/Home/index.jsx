@@ -1,19 +1,28 @@
 import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
-import './index.scss'
+import './index.css'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
+import AnimatedLetters from '../AnimatedLetters'
+import Logo from './Logo'
 
 export default function Home() {
-  // const [letterClass, setLetterClass] = useState('text-animate')
-  // const string =
+  const [letterClass] = useState('text-animate')
+  const string = ['u', 'd', 'e', 'x', 'i', 'f', 'y']
 
   return (
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br /> I'm <span>J</span>udexify
+          Hi👋,
+          <br />
+          I'm <span>J</span>
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={string}
+            idx={15}
+          />
         </h1>
         <h2>
           <FontAwesomeIcon icon={faComputer} /> FrontEnd Developer /{' '}
@@ -23,6 +32,7 @@ export default function Home() {
           Contact Me
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }

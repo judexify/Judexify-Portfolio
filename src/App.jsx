@@ -1,4 +1,4 @@
-import './App.scss'
+import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout/index.jsx'
 import Home from './components/Home/index.jsx'

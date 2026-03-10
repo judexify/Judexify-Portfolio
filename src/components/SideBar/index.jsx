@@ -1,4 +1,4 @@
-import './index.scss'
+import './index.css'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.jpeg'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
