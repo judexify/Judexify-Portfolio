@@ -3,7 +3,12 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.jpeg'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faHome,
+  faNewspaper,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faLinkedin,
@@ -37,6 +42,12 @@ export default function SideBar() {
           to="/contact-link"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => 'blog' + (isActive ? 'active' : '')}
+          to="/blog"
+        >
+          <FontAwesomeIcon icon={faNewspaper} color="#4d4d4e" />
         </NavLink>
       </nav>
       <ul>

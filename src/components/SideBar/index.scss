@@ -91,6 +91,11 @@
         content: 'CONTACT';
       }
     }
+    a.blog {
+      &:after {
+        content: 'BLOG';
+      }
+    }
 
     a.active {
       svg {
