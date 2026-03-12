@@ -24,7 +24,10 @@ export default function SideBar() {
       </Link>
 
       <nav>
-        <NavLink className={({ isActive }) => (isActive ? 'active' : '')}>
+        <NavLink
+          className={({ isActive }) => (isActive ? 'active' : '')}
+          to="/"
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
