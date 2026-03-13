@@ -1,10 +1,10 @@
 import './index.css'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.jpeg'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
+  faFolderOpen,
   faHome,
   faNewspaper,
   faUser,
@@ -18,7 +18,7 @@ import {
 export default function SideBar() {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo-fixed" to="/">
         <img src={LogoS} alt="logo" />
         <span className="sub-logo">JUDEXIFY</span>
       </Link>
@@ -31,20 +31,26 @@ export default function SideBar() {
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
-          className={({ isActive }) =>
-            `about-link'${isActive ? ' active' : ''}`
-          }
+          className={({ isActive }) => `about-link${isActive ? ' active' : ''}`}
           to="/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            `'contact-link'${isActive ? ' active' : ''}`
+            `contact-link${isActive ? ' active' : ''}`
           }
           to="/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `project-link${isActive ? ' active' : ''}`
+          }
+          to="/project"
+        >
+          <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
         </NavLink>
         <NavLink
           className={({ isActive }) => `blog${isActive ? ' active' : ''}`}

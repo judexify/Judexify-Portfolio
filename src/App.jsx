@@ -4,6 +4,8 @@ import Layout from './components/Layout/index.jsx'
 import Home from './components/Home/index.jsx'
 import About from './components/About/index.jsx'
 import Contact from './components/Contact/index.jsx'
+import Project from './components/Project/index.jsx'
+import Blog from './components/Blog/index.jsx'
 import './components/SideBar/index.css'
 import './components/Layout/index.css'
 import './components/Home/index.css'
@@ -22,6 +24,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/blog" element={<Blog />} />
       </Route>
     </Routes>
   )

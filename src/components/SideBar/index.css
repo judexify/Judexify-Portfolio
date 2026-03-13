@@ -99,6 +99,9 @@
 .nav-bar nav a.contact-link::after {
   content: 'CONTACT';
 }
+.nav-bar nav a.project-link::after {
+  content: 'PROJECTS';
+}
 .nav-bar nav a.blog::after {
   content: 'BLOG';
 }

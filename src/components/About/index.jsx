@@ -1,4 +1,5 @@
 import './index.css'
+import { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -9,9 +10,15 @@ import {
   faJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react-loaders'
+// import Loader from 'react-loaders'
 
 export default function About() {
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 1000)
+  }, [])
+
   return (
     <>
       <div className="container about-page">
@@ -31,14 +38,14 @@ export default function About() {
           <p>
             Confidence drives my work. I tackle complex interfaces and
             interactions without hesitation. I write clean, maintainable code
-            that scales. I’m comfortable making decisions on architecture and
+            that scales. I'm comfortable making decisions on architecture and
             design. I engage with challenges directly. I showcase projects that
             reflect both skill and creativity.
           </p>
           <p>
             Simplicity guides my approach. I create interfaces that are
-            intuitive and user-friendly.I focus on what matters most for
-            performance and usability.I deliver work that is elegant and
+            intuitive and user-friendly. I focus on what matters most for
+            performance and usability. I deliver work that is elegant and
             functional.
           </p>
         </div>
@@ -66,7 +73,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      {isLoading && <div className="loader" />}
     </>
   )
 }

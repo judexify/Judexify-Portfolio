@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "Movie Recommendation App",
+    "tagline": "Async API integration with real-world error handling",
+    "url": "https://movie-recommendation.pxxl.click",
+    "github": "https://github.com/judexify/Movie-Recommendation",
+    "category": "JavaScript App",
+    "tags": ["JavaScript", "REST API", "TMDB", "Async/Await"],
+    "highlights": [
+      "Integrated the TMDB REST API",
+      "Fetch API with async/await",
+      "Loading state and error handling",
+      "Data mapping from API to UI",
+      "Separation of concerns in codebase"
+    ],
+    "challenge": "Handling errors at first which later forced deeper async thinking",
+    "color": "#f59e0b"
+  },
+  {
+    "id": 2,
+    "title": "Solar Company Landing Page",
+    "tagline": "Conversion-focused landing page for a solar solutions company",
+    "url": "https://oluperfecttech.pxxl.click",
+    "github": "https://github.com/judexify/oluperfecttech",
+    "category": "Landing Page",
+    "tags": ["HTML", "CSS", "JavaScript", "Proforms", "Lazy Loading"],
+    "highlights": [
+      "Fully responsive layout",
+      "Proforms integration for client email collection",
+      "Image optimization and lazy loading"
+    ],
+    "challenge": "Building conversion-first with real client requirements",
+    "color": "#f97316"
+  },
+  {
+    "id": 3,
+    "title": "Bynomo Web3 Landing Page",
+    "tagline": "The first on-chain binary options trading dapp on BNB Chain",
+    "url": "https://judexify.github.io/Bynomo/",
+    "github": "https://github.com/judexify/Bynomo",
+    "category": "Web3 / Landing Page",
+    "tags": ["HTML", "CSS", "JavaScript", "Web3", "BNB Chain", "Vercel"],
+    "highlights": [
+      "Dark/light mode with localStorage persistence",
+      "Scroll-triggered reveal animations via IntersectionObserver",
+      "Auto-swapping hero cards with floating animation",
+      "Dual-row infinite tech stack marquee built in JS",
+      "Competitive comparison table against Web2 and Web3 rivals",
+      "Lazy-loaded images with blur-up shimmer placeholders",
+      "Service worker caching for repeat visit performance",
+      "Fully responsive with slide-in mobile nav and overlay",
+      "Vercel deployment with custom cache-control headers"
+    ],
+    "challenge": "Communicating a complex Web3 product to both traders and investors in one page",
+    "color": "#7c3aed"
+  },
+
+  {
+    "id": 4,
+    "title": "HR Management Dashboard",
+    "tagline": "Web-based employee management system with CRUD logic",
+    "url": "https://judexify.github.io/HR-Management-Dashboard",
+    "github": "https://github.com/judexify/HR-Management-Dashboard",
+    "category": "JavaScript App",
+    "tags": [
+      "JavaScript",
+      "DOM Manipulation",
+      "JSON",
+      "Form Validation",
+      "CRUD"
+    ],
+    "highlights": [
+      "Dynamic data rendering with DOM manipulation",
+      "Multi-step form and validation",
+      "CRUD-style logic",
+      "JSON data structuring"
+    ],
+    "challenge": "Structuring JSON data properly improved app-level thinking",
+    "color": "#3b82f6"
+  },
+  {
+    "id": 5,
+    "title": "Forkify",
+    "tagline": "Recipe search app built on MVC architecture",
+    "url": "",
+    "github": "https://github.com/judexify/Forkify",
+    "category": "JavaScript App",
+    "tags": ["JavaScript", "MVC", "OOP", "Async/Await", "API Integration"],
+    "highlights": [
+      "Async/await API integration",
+      "Loading and error state management",
+      "MVC architecture — separation of concerns",
+      "Object-oriented programming"
+    ],
+    "challenge": "Understanding how to structure larger JS apps without chaos",
+    "color": "#10b981"
+  }
+]

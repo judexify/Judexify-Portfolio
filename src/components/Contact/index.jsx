@@ -1,9 +1,16 @@
+import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import ContactForm from './ContactForm'
 
 export default function Contact() {
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 1000)
+  }, [])
+
   return (
     <>
       <div className="container contact-page">
@@ -25,7 +32,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      {isLoading && <div className="loader" />}
     </>
   )
 }
