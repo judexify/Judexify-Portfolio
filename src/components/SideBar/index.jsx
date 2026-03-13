@@ -34,7 +34,7 @@ export default function SideBar() {
           className={({ isActive }) => `about-link${isActive ? ' active' : ''}`}
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} />
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -42,7 +42,7 @@ export default function SideBar() {
           }
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -50,13 +50,13 @@ export default function SideBar() {
           }
           to="/project"
         >
-          <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faFolderOpen} />
         </NavLink>
         <NavLink
           className={({ isActive }) => `blog${isActive ? ' active' : ''}`}
           to="/blog"
         >
-          <FontAwesomeIcon icon={faNewspaper} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faNewspaper} />
         </NavLink>
       </nav>
       <ul>
