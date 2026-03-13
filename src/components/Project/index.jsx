@@ -70,6 +70,7 @@ function ProjectsDone({ projects }) {
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
             )}
+            <span className="project-card__hint">Tap the card to see more >>> </span>
           </div>
         </div>
       ))}

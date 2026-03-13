@@ -131,6 +131,14 @@
   gap: 1.6rem;
   align-items: center;
 }
+.project-card__hint {
+  font-size: 1rem;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: var(--clr-white);
+  opacity: 0.8;
+  margin-left: auto;
+}
 
 .project-card__link {
   font-size: 1.8rem;
@@ -196,9 +204,9 @@
 }
 
 .modal__tagline {
-  font-family: 'La Belle Aurore';
+  font-family: 'Sans Serif';
   font-size: 1.3rem;
-  color: var(--clr-accent);
+  color: var(--clr-white);
   opacity: 0.8;
   letter-spacing: 1px;
 }
