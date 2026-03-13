@@ -1,0 +1,9 @@
+.blog-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #fff;
+  text-wrap: wrap;
+}
