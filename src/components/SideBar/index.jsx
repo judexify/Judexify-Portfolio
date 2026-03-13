@@ -66,7 +66,7 @@ export default function SideBar() {
             rel="noreferrer"
             href="https://www.linkedin.com/in/jude-oluwadunsi-8a2961325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} color="#9f9fa4" />
           </a>
         </li>
         <li>
@@ -75,12 +75,12 @@ export default function SideBar() {
             rel="noreferrer"
             href="https://github.com/judexify"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faGithub} color="#9f9fa4" />
           </a>
         </li>
         <li>
           <a target="_blank" rel="noreferrer" href="https://x.com/judexify">
-            <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faXTwitter} color="#9f9fa4" />
           </a>
         </li>
       </ul>

@@ -25,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0.8rem 0;
+  margin-left: 2rem;
 }
 
 .nav-bar .logo-fixed img {
@@ -63,6 +64,9 @@
 
 .nav-bar nav a i {
   transition: var(--transition);
+}
+.nav-bar nav a svg {
+  color: var(--clr-icon);
 }
 
 .nav-bar nav a:hover {
