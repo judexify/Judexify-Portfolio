@@ -60,7 +60,7 @@
     "id": 4,
     "title": "HR Management Dashboard",
     "tagline": "Web-based employee management system with CRUD logic",
-    "url": "https://judexify.github.io/HR-Management-Dashboard",
+    "url": "https://judexify.github.io/HR-Management-page/loggedInPage.html",
     "github": "https://github.com/judexify/HR-Management-Dashboard",
     "category": "JavaScript App",
     "tags": [
