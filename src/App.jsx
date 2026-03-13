@@ -14,7 +14,6 @@ import './components/About/index.css'
 import './components/Contact/index.scss'
 import './components/Contact/ContactForm.css'
 import './components/AnimatedLetters/index.scss'
-import 'loaders.css/src/animations/pacman.scss'
 import './query.scss'
 
 function App() {

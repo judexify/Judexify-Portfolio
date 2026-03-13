@@ -6,7 +6,6 @@ import { faComputer } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
-// import Loader from 'react-loaders'
 
 export default function Home() {
   const [letterClass] = useState('text-animate')

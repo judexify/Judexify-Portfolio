@@ -7,7 +7,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Project() {
   const [isLoading, setIsLoading] = useState(true)
-  //   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(function () {
     setInterval(() => setIsLoading(false), 1000)
