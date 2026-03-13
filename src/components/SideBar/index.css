@@ -1,6 +1,18 @@
+:root {
+  --clr-bg: #1a1a1a;
+  --clr-surface: #2b2220;
+  --clr-accent: #a44038;
+  --clr-accent-muted: #7a3028;
+  --clr-charcoal: #3a3535;
+  --clr-warm: #c4714a;
+  --clr-white: #f0ebe6;
+  --clr-icon: #7a7070;
+  --transition: all 0.3s ease-out;
+}
+
 .nav-bar {
-  background-color: #181818;
-  width: 6rem;
+  background-color: var(--clr-bg);
+  width: var(--nav-width);
   height: 100%;
   position: absolute;
   top: 0;
@@ -25,7 +37,7 @@
 
 .nav-bar .logo .sub-logo {
   width: 5rem;
-  color: #fff;
+  color: var(--clr-white);
   text-align: center;
 }
 
@@ -41,7 +53,7 @@
 
 .nav-bar nav a {
   font-size: 2.2rem;
-  color: #4d4d4e;
+  color: var(--clr-icon);
   display: block;
   line-height: 5.1rem;
   height: 5.1rem;
@@ -50,11 +62,11 @@
 }
 
 .nav-bar nav a i {
-  transition: all 0.3s ease-out;
+  transition: var(--transition);
 }
 
 .nav-bar nav a:hover {
-  color: #ffd700;
+  color: var(--clr-accent);
 }
 
 .nav-bar nav a:hover svg {
@@ -75,27 +87,24 @@
   width: 100%;
   text-align: center;
   opacity: 0;
-  transition: all 0.3s ease-out;
+  transition: var(--transition);
 }
 
 .nav-bar nav a:first-child::after {
   content: 'HOME';
 }
-
 .nav-bar nav a.about-link::after {
   content: 'ABOUT';
 }
-
 .nav-bar nav a.contact-link::after {
   content: 'CONTACT';
 }
-
 .nav-bar nav a.blog::after {
   content: 'BLOG';
 }
 
 .nav-bar nav a.active svg {
-  color: #ffd700;
+  color: var(--clr-accent);
 }
 
 .nav-bar ul {
@@ -115,9 +124,9 @@
   font-size: 1.5rem;
   line-height: 1.6rem;
   margin-bottom: 1rem;
-  transition: all 0.3s ease-out;
+  transition: var(--transition);
 }
 
 .nav-bar ul li a:hover svg {
-  color: #ffd700;
+  color: var(--clr-accent);
 }

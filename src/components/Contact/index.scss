@@ -1,0 +1,38 @@
+.contact-page .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35%;
+  max-height: 90%;
+}
+
+.contact-page .text-zone h1 {
+  font-size: 5.4rem;
+  font-family: 'Coolvetica';
+  color: var(--clr-accent);
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.contact-page .text-zone p {
+  font-size: 1.4rem;
+  color: var(--clr-white);
+  font-family: sans-serif;
+  font-weight: 300;
+  animation: pulse 1s;
+}
+
+.form-wrap {
+  position: absolute;
+  top: 10rem;
+  right: 10%;
+  width: 40%;
+}
+
+.contact-form {
+  width: 100%;
+  margin-top: 2rem;
+}

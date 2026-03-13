@@ -8,7 +8,7 @@
 }
 
 .home-page h1 {
-  color: #fff;
+  color: var(--clr-white);
   font-size: 5.3rem;
   margin: 0;
   font-family: 'Coolvetica';
@@ -18,7 +18,7 @@
 .home-page h1::before {
   content: '<h1>';
   font-family: 'La Belle Aurore';
-  color: #ffd700;
+  color: var(--clr-accent);
   font-size: 1.8rem;
   position: absolute;
   margin-top: -4rem;
@@ -29,7 +29,7 @@
 .home-page h1::after {
   content: '<h1/>';
   font-family: 'La Belle Aurore';
-  color: #ffd700;
+  color: var(--clr-accent);
   position: absolute;
   font-size: 1.8rem;
   margin-top: 1.8rem;
@@ -40,7 +40,7 @@
 
 .home-page h1 span {
   font-size: 5.6rem;
-  color: #ffd700;
+  color: var(--clr-accent);
   opacity: 0;
   height: auto;
   animation: rotateIn 1s linear both;
@@ -59,20 +59,21 @@ h2 {
 
 .flat-button {
   display: inline-block;
-  color: #ffd700;
+  color: var(--clr-accent);
   font-size: 1.4rem;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 4px;
   font-family: sans-serif;
   padding: 1rem 1.8rem;
-  border: 1px solid #ffd700;
+  border: 1px solid var(--clr-accent);
   margin-top: 2.5rem;
   animation: fadeIn 1s 1.8s backwards;
   white-space: nowrap;
+  transition: var(--transition);
 }
 
 .flat-button:hover {
-  background-color: #ffd700;
+  background-color: var(--clr-accent);
   color: #333;
 }

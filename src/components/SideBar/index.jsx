@@ -32,7 +32,7 @@ export default function SideBar() {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            'about-link' + (isActive ? 'active' : '')
+            `about-link'${isActive ? ' active' : ''}`
           }
           to="/about"
         >
@@ -40,14 +40,14 @@ export default function SideBar() {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            'contact-link' + (isActive ? 'active' : '')
+            `'contact-link'${isActive ? ' active' : ''}`
           }
-          to="/contact-link"
+          to="/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
         <NavLink
-          className={({ isActive }) => 'blog' + (isActive ? 'active' : '')}
+          className={({ isActive }) => `blog${isActive ? ' active' : ''}`}
           to="/blog"
         >
           <FontAwesomeIcon icon={faNewspaper} color="#4d4d4e" />
@@ -55,7 +55,11 @@ export default function SideBar() {
       </nav>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://linkedIn.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/jude-oluwadunsi-8a2961325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>

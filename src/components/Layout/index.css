@@ -35,7 +35,8 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
-.about-page .text-zone {
+.about-page .text-zone,
+.contact-page .text-zone {
   position: absolute;
   left: 10%;
   top: 50%;
@@ -46,7 +47,8 @@
   max-height: 90%;
 }
 
-.about-page .text-zone h1 {
+.about-page .text-zone h1,
+.contact-page .text-zone h1 {
   font-size: 5.4rem;
   font-family: 'Coolvetica';
   color: #ffd700;
@@ -57,7 +59,8 @@
   left: 1rem;
 }
 
-.about-page .text-zone h1::before {
+.about-page .text-zone h1::before,
+.contact-page .text-zone h1::before {
   content: '<h1>';
   font-family: 'La Belle Aurore';
   font-size: 1.8rem;
@@ -68,7 +71,8 @@
   line-height: 1rem;
 }
 
-.about-page .text-zone h1::after {
+.about-page .text-zone h1::after,
+.contact-page .text-zone h1::after {
   content: '<h1/>';
   font-family: 'La Belle Aurore';
   font-size: 1.8rem;
@@ -80,7 +84,8 @@
   opacity: 0.6;
 }
 
-.about-page .text-zone p {
+.about-page .text-zone p,
+.contact-page .text-zone p {
   font-size: 1.4rem;
   color: #fff;
   font-family: sans-serif;
