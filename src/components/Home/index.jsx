@@ -38,6 +38,9 @@ export default function Home() {
           <Link to="/contact" className="flat-button">
             Contact Me
           </Link>
+          <Link to="/project" className="flat-button">
+            My Works
+          </Link>
         </div>
         <Logo />
       </div>

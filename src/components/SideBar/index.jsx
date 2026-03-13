@@ -20,7 +20,7 @@ export default function SideBar() {
     <div className="nav-bar">
       <Link className="logo-fixed" to="/">
         <img src={LogoS} alt="logo" />
-        <span className="sub-logo">JUDEXIFY</span>
+        {/* <span className="sub-logo">JUDEXIFY</span> */}
       </Link>
 
       <nav>
