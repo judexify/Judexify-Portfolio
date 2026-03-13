@@ -66,7 +66,7 @@
   transition: var(--transition);
 }
 .nav-bar nav a svg {
-  color: var(--clr-icon);
+  color: var(--clr-icon) !important;
 }
 
 .nav-bar nav a:hover {
@@ -111,7 +111,7 @@
 }
 
 .nav-bar nav a.active svg {
-  color: var(--clr-accent);
+  color: var(--clr-accent) !important;
 }
 
 .nav-bar ul {
