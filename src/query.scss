@@ -86,6 +86,7 @@
   .page {
     padding-bottom: 6rem;
     padding-top: 5rem;
+    overflow-x: hidden;
   }
 
   .tags,
@@ -97,6 +98,7 @@
     top: 0;
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .home-page {
@@ -104,6 +106,7 @@
     flex-direction: column;
     align-items: center;
     padding: 8rem 5% 6rem;
+    overflow: hidden;
 
     .text-zone {
       position: static;
@@ -120,8 +123,8 @@
 
   .logo-container {
     position: relative;
-    width: 28rem;
-    height: 28rem;
+    width: 22rem;
+    height: 22rem;
     margin: 3rem auto 0;
     right: auto;
     left: auto;

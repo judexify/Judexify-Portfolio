@@ -9,7 +9,7 @@ export default function Project() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(function () {
-    setInterval(() => setIsLoading(false), 1000)
+    setInterval(() => setIsLoading(false), 500)
   }, [])
 
   return (
