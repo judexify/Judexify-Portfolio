@@ -100,8 +100,8 @@
   "id": 6,
   "title": "Feliza Menu",
   "tagline": "Digital restaurant & bar menu for Feliza Hotel & Suites",
-  "url": "",
-  "github": "https://github.com/judexify/feliza-menu",
+  "url": "https://felizahotelandsuites.pxxl.click",
+  "github": "https://github.com/judexify/Feliza-Hotel-And-Suites",
   "category": "Frontend",
   "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Performance"],
   "highlights": [
@@ -112,7 +112,7 @@
     "Async CSS loading — no render-blocking resources",
     "Mobile-first responsive layout with tap-to-expand truncated item names"
   ],
-  "challenge": "nil",
+  "challenge": "",
   "color": "#f9c800"
 }
 ]
