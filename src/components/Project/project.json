@@ -96,4 +96,23 @@
     "challenge": "Understanding how to structure larger JS apps without chaos",
     "color": "#10b981"
   }
+{
+  "id": 6,
+  "title": "Feliza Menu",
+  "tagline": "Digital restaurant & bar menu for Feliza Hotel & Suites",
+  "url": "",
+  "github": "https://github.com/judexify/feliza-menu",
+  "category": "Frontend",
+  "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Performance"],
+  "highlights": [
+    "Dynamic menu rendering from a single data array — zero hardcoded content",
+    "Hero image carousel with crossfade transitions and blur-to-sharp load optimization",
+    "IntersectionObserver lazy loading with fade-up animations per section",
+    "Sticky pill navigation with precise scroll offset for stacked sticky elements",
+    "Async CSS loading — no render-blocking resources",
+    "Mobile-first responsive layout with tap-to-expand truncated item names"
+  ],
+  "challenge": "nil",
+  "color": "#f9c800"
+}
 ]
