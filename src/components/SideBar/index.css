@@ -110,8 +110,14 @@
   content: 'BLOG';
 }
 
+/* Add this to your index.css */
+.nav-bar nav a.active {
+  color: var(--clr-accent) !important;
+}
+
 .nav-bar nav a.active svg {
   color: var(--clr-accent) !important;
+  opacity: 1 !important; /* Ensure it's visible */
 }
 
 .nav-bar ul {

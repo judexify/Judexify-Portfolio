@@ -26,6 +26,25 @@
   },
   {
     "id": 2,
+    "title": "Feliza Menu",
+    "tagline": "Digital restaurant & bar menu for Feliza Hotel & Suites",
+    "url": "https://felizahotelandsuites.pxxl.click",
+    "github": "https://github.com/judexify/Feliza-Hotel-And-Suites",
+    "category": "Frontend",
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Performance"],
+    "highlights": [
+      "Dynamic menu rendering from a single data array — zero hardcoded content",
+      "Hero image carousel with crossfade transitions and blur-to-sharp load optimization",
+      "IntersectionObserver lazy loading with fade-up animations per section",
+      "Sticky pill navigation with precise scroll offset for stacked sticky elements",
+      "Async CSS loading — no render-blocking resources",
+      "Mobile-first responsive layout with tap-to-expand truncated item names"
+    ],
+    "challenge": "",
+    "color": "#f9c800"
+  },
+  {
+    "id": 3,
     "title": "Movie Recommendation App",
     "tagline": "Async API integration with real-world error handling",
     "url": "https://movie-recommendation.pxxl.click",
@@ -43,7 +62,7 @@
     "color": "#f59e0b"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Solar Company Landing Page",
     "tagline": "Conversion-focused landing page for a solar solutions company",
     "url": "https://oluperfecttech.pxxl.click",
@@ -59,7 +78,7 @@
     "color": "#f97316"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Bynomo Web3 Landing Page",
     "tagline": "The first on-chain binary options trading dapp on BNB Chain",
     "url": "https://judexify.github.io/Bynomo/",
@@ -82,7 +101,7 @@
   },
 
   {
-    "id": 5,
+    "id": 6,
     "title": "HR Management Dashboard",
     "tagline": "Web-based employee management system with CRUD logic",
     "url": "https://judexify.github.io/HR-Management-page/loggedInPage.html",
@@ -105,7 +124,7 @@
     "color": "#3b82f6"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Forkify",
     "tagline": "Recipe search app built on MVC architecture",
     "url": "",
@@ -120,30 +139,5 @@
     ],
     "challenge": "Understanding how to structure larger JS apps without chaos",
     "color": "#10b981"
-  },
-  {
-    "id": 6,
-    "title": "HRMS React Dashboard",
-    "tagline": "Full-stack HR management system with real authentication and live database",
-    "url": "https://hrms-dashboard-beta.vercel.app/",
-    "github": "https://github.com/judexify/hrms-dashboard",
-    "category": "React App",
-    "tags": [
-      "React",
-      "Supabase",
-      "Tailwind CSS",
-      "React Router",
-      "Context API",
-      "Authentication"
-    ],
-    "highlights": [
-      "Supabase Auth with session persistence and protected routes",
-      "7-table Postgres database with foreign key relationships",
-      "Reusable component architecture across 8 modules",
-      "Server-side and client-side pagination",
-      "Real-time CRUD with toast feedback"
-    ],
-    "challenge": "Migrating from vanilla JS to React forced a complete rethink of state ownership, component reusability, and data flow — context API replaced prop drilling, and Supabase replaced static JSON",
-    "color": "#7c3aed"
   }
 ]

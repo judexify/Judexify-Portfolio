@@ -27,7 +27,7 @@ export default function SideBar() {
           className={({ isActive }) => (isActive ? 'active' : '')}
           to="/"
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} />
         </NavLink>
         <NavLink
           className={({ isActive }) => `about-link${isActive ? ' active' : ''}`}
