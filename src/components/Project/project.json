@@ -28,7 +28,7 @@
     "id": 2,
     "title": "Feliza Menu",
     "tagline": "Digital restaurant & bar menu for Feliza Hotel & Suites",
-    "url": "https://felizahotelandsuites.pxxl.click",
+    "url": "https://felizahotelandsuites.vercel.app",
     "github": "https://github.com/judexify/Feliza-Hotel-And-Suites",
     "category": "Frontend",
     "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Performance"],
