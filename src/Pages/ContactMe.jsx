@@ -41,8 +41,8 @@ const contacts = [
     uid: 5,
     icon: MdEmail,
     label: "Email",
-    handle: "hello@judexify.com",
-    link: "mailto:hello@judexify.com",
+    handle: "judexify1@gmail.com",
+    link: "mailto:judexify1@gmail.com",
     description: "Prefer email? I check it daily",
   },
 ];
