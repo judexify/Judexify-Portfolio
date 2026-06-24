@@ -54,4 +54,15 @@ export const projects = [
     latest: false,
     link: "https://studydesk-rose.vercel.app/dashboard",
   },
+  {
+    uid: 6,
+    image: "/pugzverse-1.png",
+    alt: "Pugsverse Memecoin Website",
+    category: "MEMECOIN LANDING PAGE",
+    description:
+      "Built a landing page for a memecoin project, designed to capture the fun, hype-driven energy of the crypto community while driving token awareness and community growth.",
+    tag: ["HTML", "CSS", "JavaScript"],
+    latest: false,
+    link: "https://pugzverse.netlify.app/",
+  },
 ];
