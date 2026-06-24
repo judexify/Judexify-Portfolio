@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  /* Backgrounds */
+  --color-bg: #09090b;
+  --color-surface: #18181b;
+  --color-border: #27272a;
+
+  /* Text */
+  --color-textColor: #fafafa;
+  --color-textColor-muted: #a1a1aa;
+
+  /* Orange Accent */
+  --color-primary: #f97316;
+  --color-primary-light: #fb923c;
+  --color-primary-dark: #ea580c;
+
+  /* Dark Blue */
+  --color-secondary: #1e3a8a;
+  --color-secondary-dark: #172554;
+  --color-secondary-light: #2563eb;
+}
