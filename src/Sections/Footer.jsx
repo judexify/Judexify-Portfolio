@@ -3,9 +3,8 @@ import Logo from "../Components/Logo";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About Me", href: "/about" },
   { name: "Projects", href: "/my-project" },
-  { name: "Blog", href: "/blog" },
+  { name: "Contact Me", href: "/contact-me" },
 ];
 
 function Footer() {
