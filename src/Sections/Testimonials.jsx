@@ -1,11 +1,11 @@
 import useEmblaCarousel from "embla-carousel-react";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { motion as Motion } from "framer-motion";
 
 const testimonials = [
   {
     uid: 1,
-    image: "/testimonials/yhihe-proof.png",
+    image: "/testimonials/yhihe-proof.jpeg",
     name: "YHIHE Team",
     role: "NGO — Young Historians",
     description:
@@ -22,6 +22,7 @@ const testimonials = [
 ];
 
 function Testimonials() {
+  const [selectedImage, setSelectedImage] = useState(null);
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
@@ -47,12 +48,14 @@ function Testimonials() {
               className='flex-[0_0_100%] min-w-0 md:flex-[0_0_60%] px-4'
             >
               <div className='border border-primary rounded-xl p-6 flex flex-col gap-4'>
-                {/* Proof screenshot */}
-                <div className='w-full rounded-lg overflow-hidden'>
+                <div
+                  className='w-full h-48 rounded-lg overflow-hidden cursor-pointer'
+                  onClick={() => setSelectedImage(t.image)}
+                >
                   <img
                     src={t.image}
                     alt={`Testimonial proof from ${t.name}`}
-                    className='w-full object-cover'
+                    className='w-full h-full object-cover'
                   />
                 </div>
 
@@ -70,7 +73,6 @@ function Testimonials() {
         </div>
       </div>
 
-      {/* Controls */}
       <div className='flex items-center gap-4 mt-8'>
         <button
           onClick={scrollPrev}
@@ -85,6 +87,21 @@ function Testimonials() {
           →
         </button>
       </div>
+
+      {selectedImage && (
+        <div
+          className='fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-5'
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className='max-w-lg w-full rounded-xl overflow-hidden'>
+            <img
+              src={selectedImage}
+              alt='Testimonial proof'
+              className='w-full object-contain'
+            />
+          </div>
+        </div>
+      )}
     </Motion.section>
   );
 }
