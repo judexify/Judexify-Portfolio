@@ -6,7 +6,10 @@ import { useEffect, useState } from "react";
 const socials = [
   { socialName: "tw", link: "https://x.com/judexify" },
   { socialName: "ln", link: "https://linkedIn.com/jude-oluwadunsi" },
-  { socialName: "tk", link: "https://tiktok.com/judexify" },
+  {
+    socialName: "tk",
+    link: "https://tiktok.com/@judexify?_r=1&_t=ZS-97YI2WFQ1vW",
+  },
 ];
 
 function useTypewriter(text, speed = 50, delay = 0) {
