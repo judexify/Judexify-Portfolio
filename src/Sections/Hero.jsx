@@ -120,7 +120,7 @@ function Hero() {
             &rarr;
           </button>
           <div className='h-10 w-10 border border-textColor rounded-[50%] z-0'></div>
-          <span className='ml-3 text-textColor'>Download CV</span>
+          <span className='ml-3 text-textColor'>View CV</span>
         </div>
       </Motion.div>
     </section>
