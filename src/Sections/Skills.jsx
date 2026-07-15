@@ -9,7 +9,7 @@ const skills = [
     id: 1,
     title: "Frontend Development",
     description:
-      "React, Vite, JavaScript (ES6+), HTML5, CSS3, Tailwind, CSS Modules",
+      "Next.Js, React, Vite,TypeScript, JavaScript (ES6+), Tailwind, CSS Modules,HTML5, CSS3,",
     featured: true,
     icon: <FaReact />,
   },
@@ -66,11 +66,11 @@ function Skills() {
     "hover:text-bg hover:bg-primary-light active:text-bg active:bg-primary-light before:bg-textColor";
 
   return (
-    <section className='pt-5 md:pt-32 px-5 md:px-25 bg-textColor pb-20'>
-      <h2 className='font-semibold text-2xl text-center leading-12.5 underline underline-offset-4 mb-10'>
+    <section className="pt-5 md:pt-32 px-5 md:px-25 bg-textColor pb-20">
+      <h2 className="font-semibold text-2xl text-center leading-12.5 underline underline-offset-4 mb-10">
         I SPECIALIZE IN A RANGE OF SKILLS, THAT YOU NEED FOR YOUR SERVICES.
       </h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6 '>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6 ">
         {skills.map((skill, index) => (
           <Motion.div
             key={skill.id}
@@ -80,9 +80,9 @@ function Skills() {
             transition={{ duration: 0.8, delay: index * 0.15 }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            <span className='text-4xl'>{skill.icon}</span>
-            <span className='font-semibold'>{skill.title}</span>
-            <p className='text-center'>{skill.description}</p>
+            <span className="text-4xl">{skill.icon}</span>
+            <span className="font-semibold">{skill.title}</span>
+            <p className="text-center">{skill.description}</p>
           </Motion.div>
         ))}
       </div>

@@ -19,7 +19,7 @@ export const projects = [
     description:
       "Developed a responsive website for a history-focused NGO, showcasing its mission, programs, competitions, publications, and partnerships. Built with a modern CMS-driven architecture to enable easy content management and updates.",
     tag: ["React", "Sanity CMS", "Tanstack Query"],
-    latest: true,
+    latest: false,
     link: "https://younghistorian.org",
   },
   {
