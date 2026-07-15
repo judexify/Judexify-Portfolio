@@ -1,6 +1,18 @@
 export const projects = [
   {
     uid: 1,
+    image: "/mycarsng-1.png",
+    alt: "My Cars Ng Car Marketplace Landing Page",
+    category: "CAR MARKETPLACE LANDING PAGE",
+    description:
+      "Designed and built a car marketplace landing page for the Nigerian market, featuring animated hero sections, parallax scroll effects, testimonial carousels, and a fully responsive layout for browsing vehicles by category.",
+    tag: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "shadcn/ui"],
+    latest: true,
+    link: "https://mycarsng.vercel.app/",
+  },
+
+  {
+    uid: 2,
     image: "/younghistorian-1.png",
     alt: "Young Historian Website on Mobile and Desktop View",
     category: "NGO WEBSITE",
@@ -11,7 +23,7 @@ export const projects = [
     link: "https://younghistorian.org",
   },
   {
-    uid: 2,
+    uid: 3,
     image: "/feliza-1.png",
     alt: "Feliza Digital Menu on Mobile and Desktop View",
     category: "DIGITAL MENU WEBSITE",
@@ -22,7 +34,7 @@ export const projects = [
     link: "https://felizahotelandsuites.vercel.app",
   },
   {
-    uid: 3,
+    uid: 4,
     image: "/oluperfecttech-1.png",
     alt: "Oluperfect Technology Solar Company Website",
     category: "SOLAR COMPANY WEBSITE",
@@ -33,7 +45,7 @@ export const projects = [
     link: "https://oluperfecttech.netlify.app/",
   },
   {
-    uid: 4,
+    uid: 5,
     image: "/Bynomi-1.png",
     alt: "Bynomo Web3 Landing Page",
     category: "WEB3 LANDING PAGE",
@@ -44,7 +56,7 @@ export const projects = [
     link: "https://judexify.github.io/Bynomo/",
   },
   {
-    uid: 5,
+    uid: 6,
     image: "/studydesk-1.png",
     alt: "StudyDesk Personal Semester Dashboard",
     category: "PRODUCTIVITY APP",
@@ -55,7 +67,7 @@ export const projects = [
     link: "https://studydesk-rose.vercel.app/dashboard",
   },
   {
-    uid: 6,
+    uid: 7,
     image: "/pugzverse-1.png",
     alt: "Pugsverse Memecoin Website",
     category: "MEMECOIN LANDING PAGE",
