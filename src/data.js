@@ -1,14 +1,21 @@
 export const projects = [
   {
     uid: 1,
-    image: "/mycarsng-1.png",
-    alt: "My Cars Ng Car Marketplace Landing Page",
-    category: "CAR MARKETPLACE LANDING PAGE",
+    image: "/omodaddy-1.png",
+    alt: "Omodaddy Foundation NGO Website on Mobile and Desktop View",
+    category: "NGO WEBSITE",
     description:
-      "Designed and built a car marketplace landing page for the Nigerian market, featuring animated hero sections, parallax scroll effects, testimonial carousels, and a fully responsive layout for browsing vehicles by category.",
-    tag: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "shadcn/ui"],
+      "Built the full website for a faith-based NGO delivering relief to underserved communities in Nigeria. Features a fully dynamic, Sanity-managed impact gallery, a live donation flow with real-time USD-NGN conversion and both bank/crypto payment options, and motion throughout — all fully responsive.",
+    tag: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Motion",
+      "Sanity CMS",
+      "Resend",
+    ],
     latest: true,
-    link: "https://mycarsng.vercel.app/",
+    link: "https://omodaddyfoundation.org",
   },
 
   {
@@ -24,6 +31,17 @@ export const projects = [
   },
   {
     uid: 3,
+    image: "/mycarsng-1.png",
+    alt: "My Cars Ng Car Marketplace Landing Page",
+    category: "CAR MARKETPLACE LANDING PAGE",
+    description:
+      "Designed and built a car marketplace landing page for the Nigerian market, featuring animated hero sections, parallax scroll effects, testimonial carousels, and a fully responsive layout for browsing vehicles by category.",
+    tag: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "shadcn/ui"],
+    latest: false,
+    link: "https://mycarsng.vercel.app/",
+  },
+  {
+    uid: 4,
     image: "/feliza-1.png",
     alt: "Feliza Digital Menu on Mobile and Desktop View",
     category: "DIGITAL MENU WEBSITE",
@@ -34,7 +52,7 @@ export const projects = [
     link: "https://felizahotelandsuites.vercel.app",
   },
   {
-    uid: 4,
+    uid: 5,
     image: "/oluperfecttech-1.png",
     alt: "Oluperfect Technology Solar Company Website",
     category: "SOLAR COMPANY WEBSITE",
@@ -45,7 +63,7 @@ export const projects = [
     link: "https://oluperfecttech.netlify.app/",
   },
   {
-    uid: 5,
+    uid: 6,
     image: "/Bynomi-1.png",
     alt: "Bynomo Web3 Landing Page",
     category: "WEB3 LANDING PAGE",
@@ -56,7 +74,7 @@ export const projects = [
     link: "https://judexify.github.io/Bynomo/",
   },
   {
-    uid: 6,
+    uid: 7,
     image: "/studydesk-1.png",
     alt: "StudyDesk Personal Semester Dashboard",
     category: "PRODUCTIVITY APP",
@@ -67,7 +85,7 @@ export const projects = [
     link: "https://studydesk-rose.vercel.app/dashboard",
   },
   {
-    uid: 7,
+    uid: 8,
     image: "/pugzverse-1.png",
     alt: "Pugsverse Memecoin Website",
     category: "MEMECOIN LANDING PAGE",

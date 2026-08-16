@@ -85,6 +85,7 @@ function Skills() {
             <p className="text-center">{skill.description}</p>
           </Motion.div>
         ))}
+        `
       </div>
     </section>
   );
