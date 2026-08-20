@@ -1,6 +1,17 @@
 export const projects = [
   {
     uid: 1,
+    image: "/todayyearsoldmarketing-1.png",
+    alt: "Today Years Old Marketing Website on Mobile and Desktop View",
+    category: "MARKETING / GTM PLATFORM",
+    description:
+      "Built the website for a go-to-market marketing brand, featuring a newsletter subscription flow, a blog for GTM breakdowns, a booking system for GTM strategy sessions, and a partner/client showcase — all fully responsive.",
+    tag: ["Next.js", "Tailwind CSS"],
+    latest: true,
+    link: "https://www.todayyearsoldmarketing.com",
+  },
+  {
+    uid: 2,
     image: "/omodaddy-1.png",
     alt: "Omodaddy Foundation NGO Website on Mobile and Desktop View",
     category: "NGO WEBSITE",
@@ -19,7 +30,7 @@ export const projects = [
   },
 
   {
-    uid: 2,
+    uid: 3,
     image: "/younghistorian-1.png",
     alt: "Young Historian Website on Mobile and Desktop View",
     category: "NGO WEBSITE",
@@ -30,7 +41,7 @@ export const projects = [
     link: "https://younghistorian.org",
   },
   {
-    uid: 3,
+    uid: 4,
     image: "/mycarsng-1.png",
     alt: "My Cars Ng Car Marketplace Landing Page",
     category: "CAR MARKETPLACE LANDING PAGE",
@@ -41,7 +52,7 @@ export const projects = [
     link: "https://mycarsng.vercel.app/",
   },
   {
-    uid: 4,
+    uid: 5,
     image: "/feliza-1.png",
     alt: "Feliza Digital Menu on Mobile and Desktop View",
     category: "DIGITAL MENU WEBSITE",
@@ -52,7 +63,7 @@ export const projects = [
     link: "https://felizahotelandsuites.vercel.app",
   },
   {
-    uid: 5,
+    uid: 6,
     image: "/oluperfecttech-1.png",
     alt: "Oluperfect Technology Solar Company Website",
     category: "SOLAR COMPANY WEBSITE",
@@ -63,7 +74,7 @@ export const projects = [
     link: "https://oluperfecttech.netlify.app/",
   },
   {
-    uid: 6,
+    uid: 7,
     image: "/Bynomi-1.png",
     alt: "Bynomo Web3 Landing Page",
     category: "WEB3 LANDING PAGE",
@@ -74,7 +85,7 @@ export const projects = [
     link: "https://judexify.github.io/Bynomo/",
   },
   {
-    uid: 7,
+    uid: 8,
     image: "/studydesk-1.png",
     alt: "StudyDesk Personal Semester Dashboard",
     category: "PRODUCTIVITY APP",
@@ -85,7 +96,7 @@ export const projects = [
     link: "https://studydesk-rose.vercel.app/dashboard",
   },
   {
-    uid: 8,
+    uid: 9,
     image: "/pugzverse-1.png",
     alt: "Pugsverse Memecoin Website",
     category: "MEMECOIN LANDING PAGE",

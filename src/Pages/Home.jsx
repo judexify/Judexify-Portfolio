@@ -5,6 +5,7 @@ import Hero from "../Sections/Hero";
 import MyProjects from "../Sections/MyProjects";
 import Skills from "../Sections/Skills";
 import Testimonials from "../Sections/Testimonials";
+import ToolsMarquee from "../Sections/ToolsMarquee";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Hero />
       <Description />
       <Skills />
+      <ToolsMarquee />
       <MyProjects />
       <FeaturedBlogPost />
       <Testimonials />

@@ -9,7 +9,7 @@ const skills = [
     id: 1,
     title: "Frontend Development",
     description:
-      "Next.Js, React, Vite,TypeScript, JavaScript (ES6+), Tailwind, CSS Modules,HTML5, CSS3,",
+      "I build fast, modern websites and web apps that work smoothly on any device.",
     featured: true,
     icon: <FaReact />,
   },
@@ -17,7 +17,7 @@ const skills = [
     id: 2,
     title: "UI Implementation",
     description:
-      "Translating designs into pixel-perfect, responsive interfaces with attention to detail",
+      "I turn designs into real, working websites that look exactly as intended  down to the smallest detail.",
     featured: false,
     icon: <MdDesignServices />,
   },
@@ -25,7 +25,7 @@ const skills = [
     id: 3,
     title: "CMS Integration",
     description:
-      "Sanity CMS — schema design, GROQ queries, content pipelines for real client projects",
+      "I set things up so clients can update their own website content no coding needed on their end.",
     featured: false,
     icon: <TbDatabase />,
   },
@@ -33,7 +33,7 @@ const skills = [
     id: 4,
     title: "State & Data Management",
     description:
-      "TanStack Query, Redux Toolkit, Zustand, Context API, useReducer",
+      "I make sure data flows correctly through an app, so everything stays fast, accurate, and in sync.",
     featured: false,
     icon: <TbLayersIntersect />,
   },
@@ -41,7 +41,7 @@ const skills = [
     id: 5,
     title: "Backend & Database",
     description:
-      "Supabase — auth, real-time data, row-level security, REST integration",
+      "I handle logins, user accounts, and secure data storage behind the scenes.",
     featured: false,
     icon: <SiSupabase />,
   },
@@ -49,12 +49,11 @@ const skills = [
     id: 6,
     title: "Web3 & Blockchain",
     description:
-      "Solana wallet tracking, memecoin landing pages, token launch bots, crypto community systems",
+      "I build crypto and blockchain-based websites  including wallet tools, token pages, and community platforms.",
     featured: false,
     icon: <SiSolana />,
   },
 ];
-
 function Skills() {
   const baseCard =
     "relative flex p-4 flex-col gap-4 items-center justify-center border rounded-md mb-4 transition-colors duration-300 before:absolute before:inset-0 before:top-full before:z-[-1] before:transition-all before:duration-300 hover:before:-translate-y-full active:before:-translate-y-full";
