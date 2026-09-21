@@ -9,7 +9,7 @@ const testimonials = [
     name: "YHIHE Team",
     role: "NGO — Young Historians",
     description:
-      "Delivered exactly what we envisioned. The website is clean, fast, and easy to update through the CMS.",
+      "Delivered exactly what we envisioned. The website gives our work a clearer public presence and is easy for the team to update.",
   },
   {
     uid: 2,
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Feliza Hotel",
     role: "Hospitality — Feliza Hotel & Suites",
     description:
-      "The digital menu made a huge difference for our guests. Simple, elegant, and works perfectly.",
+      "The digital menu made a huge difference for our guests. It is simple, elegant, and makes our offerings easier to access.",
   },
 ];
 
@@ -45,7 +45,7 @@ function Testimonials() {
       viewport={{ once: true }}
     >
       <h2 className="text-2xl font-bold text-bg underline underline-offset-4 mb-10">
-        DON'T JUST TAKE MY 😊 WORD FOR IT.
+        CLIENT PROOF AND PROJECT FEEDBACK.
       </h2>
 
       <div className="overflow-hidden" ref={emblaRef}>

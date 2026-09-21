@@ -34,9 +34,9 @@ function useTypewriter(text, speed = 50, delay = 0) {
 function Hero() {
   const navigate = useNavigate();
 
-  const typed1 = useTypewriter("FRONTEND DEV.", 80);
-  const typed2 = useTypewriter("🔥Crafting Fast, Clean", 80, 1400);
-  const typed3 = useTypewriter("BEAUTIFUL UI's.", 80, 3200);
+  const typed1 = useTypewriter("TRUSTED PARTNER", 80);
+  const typed2 = useTypewriter("FOR WEBSITE", 80, 1400);
+  const typed3 = useTypewriter("DEVELOPMENT.", 80, 3200);
 
   return (
     <section className="pt-20 md:pt-32 px-5 md:px-25 bg-bg pb-20">
@@ -56,7 +56,7 @@ function Hero() {
       {/* Socials */}
       <div className="flex flex-col items-center mb-8">
         <span className="font-semibold text-textColor mb-2">
-          Follow Me || Contact Me
+          Follow Judexify || Start a Conversation
         </span>
         <div className="flex gap-5">
           {socials.map((social, index) => (
@@ -98,8 +98,9 @@ function Hero() {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        I'm a frontend developer who loves building clean, fast, and
-        user-friendly web experiences — from landing pages to full-scale apps.
+        I help businesses, founders, and organizations turn unclear online
+        presence, manual workflows, and scattered tools into websites and
+        digital systems people can actually use.
       </Motion.p>
 
       <Motion.div
@@ -116,7 +117,7 @@ function Hero() {
           <span className="bg-textColor flex items-center justify-center p-1 rounded-4xl">
             <MdWavingHand size={24} />
           </span>
-          <span className="font-semibold">Let's Talk</span>
+          <span className="font-semibold">Start a Project</span>
         </button>
         <div className="flex items-center cursor-pointer">
           <button className="bg-primary p-2 rounded-[50%] h-10 w-10 flex items-center justify-center -mr-3 z-3">
@@ -124,7 +125,7 @@ function Hero() {
           </button>
           <div className="h-10 w-10 border border-textColor rounded-[50%] z-0"></div>
           <span className="ml-3 text-textColor">
-            <Link to="/my-project">View My Projects</Link>
+            <Link to="/my-project">See Business Work</Link>
           </span>
         </div>
       </Motion.div>

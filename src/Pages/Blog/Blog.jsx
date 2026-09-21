@@ -3,10 +3,10 @@ import { motion as Motion } from "framer-motion";
 const posts = [
   {
     uid: 1,
-    title: "Why I Chose Frontend Dev",
+    title: "Why I Think Beyond Just a Website",
     date: "24 June 2026",
     excerpt:
-      "I didn't start out chasing code. My background is electrical electronics — circuits, systems, signals. But somewhere between debugging a broken layout at 2am and watching a UI I built actually work for someone, I realized frontend gave me the same thing engineering did: a system where every piece has to work with every other piece, and when it finally clicks, you can see it. That's when I stopped treating it as a skill to pick up and started treating it as the thing I do.",
+      "A business website should not only look presentable. It should make the offer clearer, reduce repeated questions, help customers take action, and connect to the way the business actually works. That is the direction I am building toward with JUDEXIFY.",
   },
 ];
 
@@ -28,9 +28,10 @@ function BlogHero() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h1 className="font-bold text-5xl md:text-7xl text-textColor">Blog</h1>
+      <h1 className="font-bold text-5xl md:text-7xl text-textColor">Notes</h1>
       <p className="text-textColor-muted text-base md:text-lg max-w-xl leading-7">
-        Thoughts, breakdowns, and lessons from building —{" "}
+        Thoughts on websites, products, workflows, and building useful systems
+        for businesses{" "}
         <span className="font-semibold text-primary">written by Judexify.</span>
       </p>
     </Motion.section>

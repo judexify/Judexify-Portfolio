@@ -11,7 +11,7 @@ const contacts = [
     label: "LinkedIn",
     handle: "@jude-oluwadunsi",
     link: "https://linkedin.com/in/jude-oluwadunsi",
-    description: "Let's connect professionally",
+    description: "Connect if you want to discuss a project or partnership",
   },
   {
     uid: 2,
@@ -19,15 +19,15 @@ const contacts = [
     label: "X (Twitter)",
     handle: "@judexify",
     link: "https://x.com/judexify",
-    description: "Follow my dev journey and thoughts",
+    description: "Follow my thoughts on business, products, and digital systems",
   },
   {
     uid: 3,
     icon: FaGithub,
-    label: "GitHub",
+    label: "Build Archive",
     handle: "@judexify",
     link: "https://github.com/judexify",
-    description: "See what I'm currently building",
+    description: "Optional technical proof for people who want to look deeper",
   },
   // {
   //   uid: 4,
@@ -43,7 +43,7 @@ const contacts = [
     label: "Email",
     handle: "olukojuoluwadunsi12@gmail.com",
     link: "mailto:judexify1@gmail.com",
-    description: "Prefer email? I check it daily",
+    description: "Best for project enquiries and serious conversations",
   },
 ];
 
@@ -66,12 +66,13 @@ function ContactHero() {
       viewport={{ once: true }}
     >
       <h1 className="font-bold text-5xl md:text-7xl text-textColor">
-        Contact Me
+        Start a Project
       </h1>
       <p className="text-textColor-muted text-base md:text-lg max-w-xl leading-7">
-        Pick a platform you're comfortable with and say hi ,{" "}
+        Have a business website, digital product, or workflow that needs to
+        work better?{" "}
         <span className="font-semibold text-primary">
-          I'm currently open to new projects.
+          Send the problem, the goal, and what you want people to be able to do.
         </span>
       </p>
     </Motion.section>

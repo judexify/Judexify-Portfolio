@@ -22,16 +22,16 @@ function ProjectsHero() {
       viewport={{ once: true }}
     >
       <h1 className='font-bold text-5xl md:text-7xl text-textColor'>
-        My Projects
+        Work That Solves Business Problems
       </h1>
       <p className='text-textColor-muted text-base md:text-lg max-w-xl leading-7'>
-        A curated collection of real-world projects from NGO websites and hotel
-        menus to dashboards{" "}
+        A curated collection of websites and digital products built to make
+        businesses clearer, more credible, and easier to use{" "}
         <span className='font-semibold text-primary'>
-          (not limited to that).{" "}
+          for customers, teams, and supporters.{" "}
         </span>
-        Each one built with attention to performance, clean code, and user
-        experience.
+        The focus is the problem each project helps solve, not the tools behind
+        it.
       </p>
     </Motion.section>
   );
@@ -78,7 +78,7 @@ function ProjectsCard() {
 
               <div className='flex items-center gap-2 mt-auto pt-2'>
                 <span className='text-sm font-medium text-bg'>
-                  View Project
+                  View Work
                 </span>
                 <a
                   href={project.link}

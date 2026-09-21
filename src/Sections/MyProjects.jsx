@@ -8,7 +8,7 @@ function MyProjects() {
   return (
     <section className='pt-5 md:pt-32 px-5 md:px-25 bg-textColor pb-20 flex flex-col items-center'>
       <h2 className='text-2xl leading-12.5 underline underline-offset-4 mb-10 text-center font-bold w-full'>
-        HERE's A SNEAK OF EXCITING PROJECTS I'VE DONE.
+        SELECTED WORK BUILT AROUND BUSINESS GOALS.
       </h2>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6 w-full mb-12'>
@@ -49,7 +49,7 @@ function MyProjects() {
 
               <div className='flex items-center gap-2 mt-auto pt-2'>
                 <span className='text-sm font-medium text-bg'>
-                  View Project
+                  View Work
                 </span>
                 <a
                   href={project.link}
@@ -73,7 +73,7 @@ function MyProjects() {
         onClick={() => navigate("/my-project")}
         className='bg-primary px-4 py-2 rounded-4xl flex gap-6 items-center'
       >
-        <span className='text-base font-semibold'>View All Projects</span>
+        <span className='text-base font-semibold'>View More Work</span>
         <span className='bg-textColor rounded-full p-2 text-xl flex items-center justify-center'>
           &rarr;
         </span>

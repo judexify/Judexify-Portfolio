@@ -13,15 +13,15 @@ function FooterHead() {
       viewport={{ once: false }}
     >
       <h3 className='text-[48px] md:text-[72px] lg:text-[90px] font-bold text-textColor text-center leading-tight'>
-        LET'S WORK
+        BUILD WHAT
         <br />
-        T
+        W
         <img
           src='/pfp.jpeg'
           alt="Judexify's image"
           className='inline-block w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full object-cover align-middle mx-1'
         />
-        GETHER
+        RKS
       </h3>
 
       <button

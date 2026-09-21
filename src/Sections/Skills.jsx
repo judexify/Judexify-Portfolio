@@ -7,49 +7,49 @@ import { motion as Motion } from "framer-motion";
 const skills = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "Business Websites",
     description:
-      "I build fast, modern websites and web apps that work smoothly on any device.",
+      "Clear, credible websites that explain what you do and guide customers toward action.",
     featured: true,
     icon: <FaReact />,
   },
   {
     id: 2,
-    title: "UI Implementation",
+    title: "Customer Experience",
     description:
-      "I turn designs into real, working websites that look exactly as intended  down to the smallest detail.",
+      "Interfaces that make services, offers, menus, programs, and key information easy to understand.",
     featured: false,
     icon: <MdDesignServices />,
   },
   {
     id: 3,
-    title: "CMS Integration",
+    title: "Editable Content",
     description:
-      "I set things up so clients can update their own website content no coding needed on their end.",
+      "Setups that let your team update pages, stories, galleries, posts, or listings without asking for help every time.",
     featured: false,
     icon: <TbDatabase />,
   },
   {
     id: 4,
-    title: "State & Data Management",
+    title: "Digital Workflows",
     description:
-      "I make sure data flows correctly through an app, so everything stays fast, accurate, and in sync.",
+      "Forms, dashboards, portals, and flows that move repeated work out of chats and spreadsheets.",
     featured: false,
     icon: <TbLayersIntersect />,
   },
   {
     id: 5,
-    title: "Backend & Database",
+    title: "Accounts & Data",
     description:
-      "I handle logins, user accounts, and secure data storage behind the scenes.",
+      "The behind-the-scenes structure for secure access, customer information, and business records.",
     featured: false,
     icon: <SiSupabase />,
   },
   {
     id: 6,
-    title: "Web3 & Blockchain",
+    title: "Emerging Solutions",
     description:
-      "I build crypto and blockchain-based websites  including wallet tools, token pages, and community platforms.",
+      "Practical exploration of automation, AI-assisted workflows, and newer digital tools when they actually help the business.",
     featured: false,
     icon: <SiSolana />,
   },
@@ -67,7 +67,7 @@ function Skills() {
   return (
     <section className="pt-5 md:pt-32 px-5 md:px-25 bg-textColor pb-20">
       <h2 className="font-semibold text-2xl text-center leading-12.5 underline underline-offset-4 mb-10">
-        I SPECIALIZE IN A RANGE OF SKILLS, THAT YOU NEED FOR YOUR SERVICES.
+        WHAT I HELP BUSINESSES BUILD AND IMPROVE.
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6 ">
         {skills.map((skill, index) => (

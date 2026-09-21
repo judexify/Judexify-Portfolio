@@ -17,20 +17,20 @@ import {
 import { TbLayersIntersect } from "react-icons/tb";
 
 const tools = [
-  { name: "React", icon: <FaReact /> },
-  { name: "Next.js", icon: <RiNextjsFill /> },
-  { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "JavaScript", icon: <SiJavascript /> },
-  { name: "Vite", icon: <SiVite /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-  { name: "HTML5", icon: <SiHtml5 /> },
-  { name: "CSS3", icon: <FaCss3 /> },
-  { name: "Sanity CMS", icon: <SiSanity /> },
-  { name: "TanStack Query", icon: <SiReactquery /> },
-  { name: "Redux Toolkit", icon: <SiRedux /> },
-  { name: "Zustand", icon: <TbLayersIntersect /> },
-  { name: "Supabase", icon: <SiSupabase /> },
-  { name: "Solana", icon: <SiSolana /> },
+  { name: "Business Websites", icon: <FaReact /> },
+  { name: "Booking Systems", icon: <RiNextjsFill /> },
+  { name: "Customer Portals", icon: <SiTypescript /> },
+  { name: "Internal Dashboards", icon: <SiJavascript /> },
+  { name: "Content Management", icon: <SiVite /> },
+  { name: "Donation Flows", icon: <SiTailwindcss /> },
+  { name: "Digital Menus", icon: <SiHtml5 /> },
+  { name: "Service Pages", icon: <FaCss3 /> },
+  { name: "Team Updates", icon: <SiSanity /> },
+  { name: "Data Sync", icon: <SiReactquery /> },
+  { name: "Customer Records", icon: <SiRedux /> },
+  { name: "Workflow Tools", icon: <TbLayersIntersect /> },
+  { name: "Secure Access", icon: <SiSupabase /> },
+  { name: "Automation Ideas", icon: <SiSolana /> },
 ];
 
 const rowOne = tools.slice(0, 7);
@@ -66,7 +66,7 @@ function ToolsMarquee() {
   return (
     <section className="bg-bg mb-10 py-20 flex flex-col gap-6">
       <h2 className="text-2xl font-bold text-textColor underline underline-offset-4 text-center mb-10">
-        TOOLS OF THE TRADE
+        DIGITAL SYSTEMS YOUR BUSINESS CAN USE
       </h2>
 
       <MarqueeRow items={rowOne} direction="left" speed={28} />

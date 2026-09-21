@@ -5,9 +5,9 @@ import { AnimatePresence, motion as Motion } from "framer-motion";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "My Projects", href: "/my-project" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact Me", href: "/contact-me" },
+  { name: "Work", href: "/my-project" },
+  { name: "Notes", href: "/blog" },
+  { name: "Start a Project", href: "/contact-me" },
 ];
 
 function NavBar() {
@@ -41,7 +41,7 @@ function NavBar() {
       {/* Desktop */}
       <ul className='hidden md:flex md:items-center md:gap-10'>
         {navLinks.map((link) =>
-          link.name === "Contact Me" ? (
+          link.name === "Start a Project" ? (
             <li
               key={link.name}
               className='bg-amber-600 px-4 py-2 rounded-[18px]'
@@ -84,7 +84,7 @@ function NavBar() {
           >
             <ul className='flex flex-col p-4 gap-4'>
               {navLinks.map((link) =>
-                link.name === "Contact Me" ? (
+                link.name === "Start a Project" ? (
                   <li
                     key={link.name}
                     className='bg-amber-600 rounded-[18px] px-4 py-2 text-center'

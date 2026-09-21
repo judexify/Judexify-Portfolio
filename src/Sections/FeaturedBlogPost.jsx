@@ -13,7 +13,7 @@ function FeaturedBlogPost() {
       viewport={{ once: true }}
     >
       <h2 className="text-2xl font-bold text-textColor underline underline-offset-4">
-        LATEST ARTICLE I WROTE
+        LATEST THINKING
       </h2>
 
       <div className="border border-primary rounded-xl p-6 flex flex-col gap-4 relative">
@@ -24,18 +24,15 @@ function FeaturedBlogPost() {
         </div>
 
         <span className="text-xl font-bold text-textColor">
-          Why I Chose Frontend Dev
+          Why I Think Beyond "Just a Website"
         </span>
 
         <div className="relative h-28 overflow-hidden">
           <p className="text-sm text-textColor leading-6">
-            I didn't start out chasing code. My background is electrical
-            electronics circuits. But somewhere between debugging a broken
-            layout at 2am and watching a UI I built actually work for someone, I
-            realized frontend gave me the same thing engineering did: a system
-            where every piece has to work with every other piece, and when it
-            finally clicks, you can see it. That's when I stopped treating it as
-            a skill to pick up and started treating it as the thing I do.
+            A business website should not only look presentable. It should make
+            the offer clearer, reduce repeated questions, help customers take
+            action, and connect to the way the business actually works. That is
+            the direction I am building toward with JUDEXIFY.
           </p>
           <div className="absolute bottom-0 left-0 right-0 h-12 bg-linear-to-t from-bg to-transparent" />
         </div>
@@ -50,7 +47,7 @@ function FeaturedBlogPost() {
         className="bg-primary px-3 py-1 rounded-4xl flex gap-6 items-center self-center"
       >
         <span className="text-sm font-semibold">
-          <Link to="/blog">View More Posts</Link>
+          <Link to="/blog">View More Notes</Link>
         </span>
         <span className="bg-textColor rounded-full p-1 text-xl flex items-center justify-center">
           &rarr;
