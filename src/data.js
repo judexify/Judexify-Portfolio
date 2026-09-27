@@ -45,17 +45,6 @@ export const projects = [
   },
   {
     uid: 5,
-    image: "/mycarsng-1.png",
-    alt: "My Cars Ng Car Marketplace Landing Page",
-    category: "CAR MARKETPLACE LANDING PAGE",
-    description:
-      "Shaped a marketplace landing page that explains the value, builds buyer confidence, and makes vehicle discovery feel simple for the Nigerian market.",
-    tag: ["Marketplace", "Buyer trust", "Vehicle discovery"],
-    latest: false,
-    link: "https://mycarsng.vercel.app/",
-  },
-  {
-    uid: 6,
     image: "/feliza-1.png",
     alt: "Feliza Digital Menu on Mobile and Desktop View",
     category: "DIGITAL MENU WEBSITE",
@@ -66,7 +55,7 @@ export const projects = [
     link: "https://felizahotelandsuites.vercel.app",
   },
   {
-    uid: 7,
+    uid: 6,
     image: "/oluperfecttech-1.png",
     alt: "Oluperfect Technology Solar Company Website",
     category: "SOLAR COMPANY WEBSITE",
@@ -75,6 +64,17 @@ export const projects = [
     tag: ["Credibility", "Inquiries", "Energy services"],
     latest: false,
     link: "https://oluperfecttech.netlify.app/",
+  },
+  {
+    uid: 7,
+    image: "/mycarsng-1.png",
+    alt: "My Cars Ng Car Marketplace Landing Page",
+    category: "CAR MARKETPLACE LANDING PAGE",
+    description:
+      "Shaped a marketplace landing page that explains the value, builds buyer confidence, and makes vehicle discovery feel simple for the Nigerian market.",
+    tag: ["Marketplace", "Buyer trust", "Vehicle discovery"],
+    latest: false,
+    link: "https://mycarsng.vercel.app/",
   },
   {
     uid: 8,
