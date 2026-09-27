@@ -1,29 +1,39 @@
 export const projects = [
   {
     uid: 1,
+    image: "/debatechamps-1.png",
+    alt: "DebateChamps education website on mobile and desktop view",
+    category: "EDUCATION / DEBATE PLATFORM",
+    description:
+      "Built a full education website for DebateChamps with programmes, competitions, registrations, impact stories, partner showcases, Sanity-powered content updates, SEO setup, and Google Search Console readiness.",
+    tag: ["Sanity CMS", "Registrations", "SEO setup"],
+    latest: true,
+    link: "https://www.debatechamps.org",
+  },
+  {
+    uid: 2,
     image: "/todayyearsoldmarketing-1.png",
     alt: "Today Years Old Marketing Website on Mobile and Desktop View",
     category: "MARKETING / GTM PLATFORM",
     description:
       "Created a stronger online home for a marketing brand, helping visitors understand the offer, read useful insights, join the newsletter, and book strategy sessions from one clear experience.",
     tag: ["Lead generation", "Bookings", "Content hub"],
-    latest: true,
+    latest: false,
     link: "https://www.todayyearsoldmarketing.com",
   },
   {
-    uid: 2,
+    uid: 3,
     image: "/omodaddy-1.png",
     alt: "Omodaddy Foundation NGO Website on Mobile and Desktop View",
     category: "NGO WEBSITE",
     description:
       "Helped a faith-based foundation present its mission, show real community impact, collect support, and keep stories up to date without needing a technical person for every update.",
     tag: ["Donor trust", "Impact gallery", "Easy updates"],
-    latest: true,
+    latest: false,
     link: "https://omodaddyfoundation.org",
   },
-
   {
-    uid: 3,
+    uid: 4,
     image: "/younghistorian-1.png",
     alt: "Young Historian Website on Mobile and Desktop View",
     category: "NGO WEBSITE",
@@ -34,7 +44,7 @@ export const projects = [
     link: "https://younghistorian.org",
   },
   {
-    uid: 4,
+    uid: 5,
     image: "/mycarsng-1.png",
     alt: "My Cars Ng Car Marketplace Landing Page",
     category: "CAR MARKETPLACE LANDING PAGE",
@@ -45,7 +55,7 @@ export const projects = [
     link: "https://mycarsng.vercel.app/",
   },
   {
-    uid: 5,
+    uid: 6,
     image: "/feliza-1.png",
     alt: "Feliza Digital Menu on Mobile and Desktop View",
     category: "DIGITAL MENU WEBSITE",
@@ -56,7 +66,7 @@ export const projects = [
     link: "https://felizahotelandsuites.vercel.app",
   },
   {
-    uid: 6,
+    uid: 7,
     image: "/oluperfecttech-1.png",
     alt: "Oluperfect Technology Solar Company Website",
     category: "SOLAR COMPANY WEBSITE",
@@ -67,7 +77,7 @@ export const projects = [
     link: "https://oluperfecttech.netlify.app/",
   },
   {
-    uid: 7,
+    uid: 8,
     image: "/Bynomi-1.png",
     alt: "Bynomo Web3 Landing Page",
     category: "WEB3 LANDING PAGE",
@@ -78,7 +88,7 @@ export const projects = [
     link: "https://judexify.github.io/Bynomo/",
   },
   {
-    uid: 8,
+    uid: 9,
     image: "/studydesk-1.png",
     alt: "StudyDesk Personal Semester Dashboard",
     category: "PRODUCTIVITY APP",
@@ -89,7 +99,7 @@ export const projects = [
     link: "https://studydesk-rose.vercel.app/dashboard",
   },
   {
-    uid: 9,
+    uid: 10,
     image: "/pugzverse-1.png",
     alt: "Pugsverse Memecoin Website",
     category: "MEMECOIN LANDING PAGE",
