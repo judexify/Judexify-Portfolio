@@ -125,7 +125,7 @@ function Hero() {
           </button>
           <div className="h-10 w-10 border border-textColor rounded-[50%] z-0"></div>
           <span className="ml-3 text-textColor">
-            <Link to="/my-project">See Business Work</Link>
+            <Link to="/my-project">See Our Business Work</Link>
           </span>
         </div>
       </Motion.div>
