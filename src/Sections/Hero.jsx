@@ -98,9 +98,8 @@ function Hero() {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        I help businesses, founders, and organizations turn unclear online
-        presence, manual workflows, and scattered tools into websites and
-        digital systems people can actually use.
+        I Build Websites for Businesses & Organizations | Professional Websites
+        You Can Actually Manage
       </Motion.p>
 
       <Motion.div
